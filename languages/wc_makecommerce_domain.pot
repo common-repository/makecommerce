@@ -1,0 +1,1058 @@
+# Copyright (C) 2024 Maksekeskus AS
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: MakeCommerce 3.5.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/makecommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-13T09:32:02+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: wc_makecommerce_domain\n"
+
+#. Plugin Name of the plugin
+msgid "MakeCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://makecommerce.net/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds MakeCommerce payment gateway and Itella/Omniva/DPD parcel machine shipping methods to WooCommerce checkout"
+msgstr ""
+
+#. Author of the plugin
+msgid "Maksekeskus AS"
+msgstr ""
+
+#: api/api.php:93
+msgid "You have enabled MakeCommerce module but it seems that you don't have CURL enabled. This way MakeCommerce unfortunately does not work!"
+msgstr ""
+
+#: api/api.php:106
+msgid "MakeCommerce API access"
+msgstr ""
+
+#: api/api.php:225
+msgid "MakeCommerce API access credentials"
+msgstr ""
+
+#: api/api.php:226
+msgid "To use MakeCommerce/Maksekeskus services you need to enter API credentials below here <br/> <br/>"
+msgstr ""
+
+#: api/api.php:227
+msgid "To further configure the Payment methods please go to <a href=\"%s\">MakeCommerce Checkout Options</a>, links to settings of our Shipment methods are listed below"
+msgstr ""
+
+#: api/api.php:232
+msgid "Current environment"
+msgstr ""
+
+#: api/api.php:233
+msgid "See more about <a href=\"https://maksekeskus.ee/en/for-developers/test-environment/\">MakeCommerce Test environment</a>"
+msgstr ""
+
+#: api/api.php:236
+msgid "Live"
+msgstr ""
+
+#: api/api.php:237
+msgid "Test"
+msgstr ""
+
+#: api/api.php:244
+msgid "Shop ID (live)"
+msgstr ""
+
+#: api/api.php:245
+msgid "Get it from <a href=\"https://merchant.maksekeskus.ee/api.html\" target=\"_blank\">Merchant Portal</a>"
+msgstr ""
+
+#: api/api.php:251
+msgid "Secret key (live)"
+msgstr ""
+
+#: api/api.php:257
+msgid "Publishable key (live)"
+msgstr ""
+
+#: api/api.php:263
+msgid "Shop ID (test)"
+msgstr ""
+
+#: api/api.php:266
+msgid "Get it from <a href=\"https://merchant.test.maksekeskus.ee/api.html\" target=\"_blank\">Merchant Portal Test</a>"
+msgstr ""
+
+#: api/api.php:271
+msgid "Secret key (test)"
+msgstr ""
+
+#: api/api.php:278
+msgid "Publishable key (test)"
+msgstr ""
+
+#: api/api.php:284
+msgid "Label print format"
+msgstr ""
+
+#: api/api.php:285
+msgid "In which format should shipping labels be printed. (*make sure you have API access to see more options)"
+msgstr ""
+
+#: api/api.php:296
+msgid "Parcel Machine Map Settings"
+msgstr ""
+
+#: api/api.php:298
+msgid "Before using, please read more about the functionalities, benefits and security measures of our parcel machine map from"
+msgstr ""
+
+#: api/api.php:300
+msgid "our plugin instructions"
+msgstr ""
+
+#: api/api.php:301
+msgid "https://makecommerce.net/integration-modules/makecommerce-plugin-for-woocommerce/#map-view-for-the-selection-of-parcel-machines"
+msgstr ""
+
+#: api/api.php:305
+msgid "Enable map selection for parcel machines"
+msgstr ""
+
+#: api/api.php:306
+msgid "Allow customers to select their desired parcel machine from a map view"
+msgstr ""
+
+#: api/api.php:312
+msgid "Define Google Javascript API key"
+msgstr ""
+
+#: api/api.php:314
+msgid "In order to enable the map feature for parcel machine seletion, a Google Javascript API key needs to be obtained"
+msgstr ""
+
+#: api/api.php:319
+msgid "Use Google Geocoding"
+msgstr ""
+
+#: api/api.php:320
+msgid "Geocoding allows the map to centralize on the shipping address"
+msgstr ""
+
+#: api/api.php:326
+msgid "Define a Google Geocoding API key"
+msgstr ""
+
+#: api/api.php:328
+msgid "A separate API key is recommended to be defined for Geocoding due to security reasons"
+msgstr ""
+
+#: api/api.php:343
+msgid "Makecommerce modules"
+msgstr ""
+
+#: api/api.php:344
+msgid "Our plugin adds several modules to your shop. Here you can switch off modules that are not important for you, they will disappear from Woocommerce settings menus.<br> Each active module have their own settings dialog, where they must also be Enabled before use."
+msgstr ""
+
+#: api/api.php:351
+msgid "Omniva Parcel Machine"
+msgstr ""
+
+#: api/api.php:352
+msgid "enable Omniva parcel machines shipping method"
+msgstr ""
+
+#: api/api.php:352
+#: api/api.php:360
+#: api/api.php:368
+#: api/api.php:376
+#: api/api.php:384
+#: api/api.php:392
+#: api/api.php:400
+msgid "<a href=\"%s\">module settings</a>"
+msgstr ""
+
+#: api/api.php:359
+msgid "Smartpost Parcel Machine"
+msgstr ""
+
+#: api/api.php:360
+msgid "enable Smartpost parcel machines shipping method"
+msgstr ""
+
+#: api/api.php:367
+msgid "DPD"
+msgstr ""
+
+#: api/api.php:367
+#: api/api.php:375
+msgid "parcel machine"
+msgstr ""
+
+#: api/api.php:368
+msgid "enable DPD parcel machine shipping method"
+msgstr ""
+
+#: api/api.php:375
+msgid "LP Express"
+msgstr ""
+
+#: api/api.php:376
+msgid "enable LP Express parcel machine shipping method"
+msgstr ""
+
+#: api/api.php:383
+msgid "Omniva Courier"
+msgstr ""
+
+#: api/api.php:384
+msgid "enable Omniva courier shipping method"
+msgstr ""
+
+#: api/api.php:391
+msgid "Smartpost Courier"
+msgstr ""
+
+#: api/api.php:392
+msgid "enable Smartpost courier shipping method"
+msgstr ""
+
+#: api/api.php:399
+msgid "DPD Courier"
+msgstr ""
+
+#: api/api.php:400
+msgid "enable DPD courier shipping method"
+msgstr ""
+
+#: api/api.php:439
+msgid "You have not entered the Shop ID and keys for the MakeCommerce payment module. The module will not work without them."
+msgstr ""
+
+#: api/api.php:441
+#: api/api.php:443
+msgid "Click here to enter them"
+msgstr ""
+
+#: includes/i18n.php:58
+#: shipping/method/courier/dpd.php:53
+#: shipping/method/courier/omniva.php:41
+#: shipping/method/parcelmachine/dpd.php:52
+#: shipping/method/parcelmachine/omniva.php:51
+msgid "Estonia"
+msgstr ""
+
+#: includes/i18n.php:61
+#: shipping/method/courier/dpd.php:54
+#: shipping/method/courier/omniva.php:42
+#: shipping/method/parcelmachine/dpd.php:53
+#: shipping/method/parcelmachine/omniva.php:52
+msgid "Latvia"
+msgstr ""
+
+#: includes/i18n.php:64
+#: shipping/method/courier/dpd.php:55
+#: shipping/method/courier/omniva.php:43
+#: shipping/method/parcelmachine/dpd.php:54
+#: shipping/method/parcelmachine/lpexpress.php:31
+#: shipping/method/parcelmachine/omniva.php:53
+msgid "Lithuania"
+msgstr ""
+
+#: includes/i18n.php:67
+msgid "Finland"
+msgstr ""
+
+#: includes/i18n.php:70
+msgid "International"
+msgstr ""
+
+#: includes/makecommerce.php:320
+msgid "Please check that you have configured correctly MakeCommerce API accesses"
+msgstr ""
+
+#: makecommerce.php:99
+msgid "Cannot initiate MakeCommerce, a class and/or namespace called \"MakeCommerce\" is already in use somewhere else..."
+msgstr ""
+
+#: makecommerce.php:145
+msgid "Cannot initiate MakeCommerce, there seems to be no WooCommerce present or active..."
+msgstr ""
+
+#: payment/gateway/refund.php:30
+msgid "Refund completed for amount %s"
+msgstr ""
+
+#: payment/gateway/refund.php:34
+msgid "Partial refund completed for amount %s"
+msgstr ""
+
+#: payment/gateway/refund.php:47
+msgid "Could not create refund: payment is still being processed, try to refund later"
+msgstr ""
+
+#: payment/gateway/subscription.php:76
+msgid "Unable to renew subscription"
+msgstr ""
+
+#: payment/gateway/subscription.php:78
+msgid "Renewal payment was declined"
+msgstr ""
+
+#: payment/gateway/subscription.php:82
+#: payment/payment.php:319
+msgid "Transaction ID"
+msgstr ""
+
+#: payment/gateway/subscription.php:83
+#: payment/payment.php:320
+msgid "Payment option"
+msgstr ""
+
+#: payment/gateway/woocommerce/banklink.php:27
+msgid "Update successfully completed!"
+msgstr ""
+
+#: payment/gateway/woocommerce/banklink.php:29
+msgid "Update successfully completed, but no payment methods were returned. Please contact us to solve the issue at support@maksekeskus.ee"
+msgstr ""
+
+#: payment/gateway/woocommerce/banklink.php:35
+#: payment/gateway/woocommerce/banklink.php:197
+msgid "There was an error with your update. Please try again."
+msgstr ""
+
+#: payment/gateway/woocommerce/blocks/woocommerceblocks.php:115
+#: payment/gateway/woocommerce/woocommerce.php:412
+msgid "Please select suitable payment option!"
+msgstr ""
+
+#: payment/gateway/woocommerce/creditcard.php:17
+msgid "The order is still awaiting your payment"
+msgstr ""
+
+#: payment/gateway/woocommerce/creditcard.php:64
+msgid "Pay for subscription"
+msgstr ""
+
+#: payment/gateway/woocommerce/creditcard.php:65
+msgid "This order contains subscriptions"
+msgstr ""
+
+#: payment/gateway/woocommerce/creditcard.php:66
+msgid "I agree that my card will be recurringly billed by this store"
+msgstr ""
+
+#: payment/gateway/woocommerce/creditcard.php:93
+msgid "Pay with credit card"
+msgstr ""
+
+#: payment/gateway/woocommerce/creditcard.php:94
+msgid "Please wait, processing payment..."
+msgstr ""
+
+#: payment/gateway/woocommerce/methods.php:172
+msgid "The payment methods list for MakeCommerce payment module is empty."
+msgstr ""
+
+#: payment/gateway/woocommerce/methods.php:173
+#: payment/gateway/woocommerce/methods.php:189
+msgid "Go to the settings to update them"
+msgstr ""
+
+#: payment/gateway/woocommerce/methods.php:188
+msgid "You have changed the environment for MakeCommerce payment module. The payment methods list has been loaded for a different environment."
+msgstr ""
+
+#: payment/gateway/woocommerce/methods.php:504
+#: payment/gateway/woocommerce/methods.php:532
+msgid "No payment methods for selected country"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:132
+msgid "Enable/Disable"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:134
+msgid "Enable MakeCommerce payments"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:144
+msgid "MakeCommerce API"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:145
+msgid "Go to <a href=\"%s\">API settings</a> to fill in the credentials"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:150
+msgid "User Interface"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:156
+msgid "Set as default selection"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:157
+msgid "MakeCommerce payments widget will be selected by default"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:164
+msgid "Display MC payment channels as"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:168
+msgid "List"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:169
+msgid "Grouped to widget"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:179
+#: payment/gateway/woocommerce/woocommerce.php:189
+msgid "Payments widget title"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:181
+#: payment/gateway/woocommerce/woocommerce.php:191
+msgid "Appropriate title may depend on the configuration you have made, i.e. 'pay with bank-link or credit card', 'pay with bank-links' or 'payment methods'"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:182
+msgid "Pay with bank-links or credit card"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:199
+msgid "MC payment channels display style"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:203
+msgid "Logo"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:204
+msgid "Text & logo"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:205
+msgid "Text"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:211
+msgid "Size of payment channel logos"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:215
+msgid "Small"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:216
+msgid "Medium"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:217
+msgid "Large"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:223
+msgid "Remove country selection and display all methods"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:230
+msgid "Hide country selector"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:231
+msgid "Do not display country selector (flags) at payment methods"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:237
+msgid "Country selector style"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:241
+msgid "Flag"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:242
+msgid "Dropdown"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:248
+msgid "Define custom order of payment countries"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:250
+msgid "If you want to change default order, insert a comma separated list of 2 char country codes. i.e. - ee, lv, lt, fi (international = other)"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:255
+msgid "Define custom order of payment channels"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:257
+msgid "If you want to change default order, put here comma separated list of channels. i,e, - seb,lhv,swedbank. see more on the module home page (link above)"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:266
+msgid "Credit Card Settings"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:271
+msgid "Prefill Credit Card form with customer data"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:274
+msgid "It will pass user Name and e-mail address to the Credit Card dialog to make the form filling easier"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:278
+msgid "Advanced Settings"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:283
+msgid "Disable automatic cancelled payment status update"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:284
+msgid "Disable automatic order status updates for cancelled payments by MakeCommerce"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:287
+msgid "Disable MakeCommerce from updating order statuses for cancelled payments and let WooCommerce handle the status change"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:291
+msgid "Disable automatic expired payment status update"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:292
+msgid "Disable automatic order status updates for expired payments by MakeCommerce"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:295
+msgid "Disable MakeCommerce from updating order statuses for expired payments and let WooCommerce handle the status change"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:300
+msgid "Update payment methods"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:301
+msgid "Update"
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:302
+msgid "This will update shop configuration from MakeCommerce servers."
+msgstr ""
+
+#: payment/gateway/woocommerce/woocommerce.php:501
+msgid "An error occured when trying to process payment!"
+msgstr ""
+
+#: payment/payment.php:140
+msgid "Payment failed"
+msgstr ""
+
+#: payment/payment.php:143
+msgid "Payment transaction cancelled"
+msgstr ""
+
+#: payment/payment.php:146
+msgid "Payment transaction expired"
+msgstr ""
+
+#: payment/payment.php:234
+msgid "Order total and transaction amount did not match! Please contact us at"
+msgstr ""
+
+#: payment/payment.php:235
+msgid "support@maksekeskus.ee"
+msgstr ""
+
+#: payment/payment.php:238
+msgid "Transaction ID that was assigned to this order"
+msgstr ""
+
+#: payment/payment.php:242
+msgid "Amount that was paid"
+msgstr ""
+
+#: shipping/label.php:170
+msgid "Orders %s did not have shipment ID attached so no labels was printed! Please register those packages if you think this is an error!"
+msgstr ""
+
+#: shipping/label.php:226
+#: shipping/order.php:470
+msgid "Register parcel machine shipments"
+msgstr ""
+
+#: shipping/label.php:227
+#: shipping/order.php:471
+msgid "Print parcel machine labels"
+msgstr ""
+
+#: shipping/label.php:283
+msgid "Print parcel label"
+msgstr ""
+
+#: shipping/label.php:292
+msgid "Something went wrong generating a label for this order. Please try again! Contact us, if the problem persists."
+msgstr ""
+
+#: shipping/method/common/dpd.php:37
+#: shipping/method/common/smartpost.php:36
+msgid " can be used with an international phone number only. Please specify your phone number with international country code (e.g. +372xxxxxxx)"
+msgstr ""
+
+#: shipping/method/common/dpd.php:48
+msgid "DPD API Key"
+msgstr ""
+
+#: shipping/method/common/lpexpress.php:31
+msgid " can be used with a Lithuanian phone number only. Please specify your phone number with Lithuanian country code (e.g. +370xxxxxxxx)"
+msgstr ""
+
+#: shipping/method/common/omniva.php:56
+msgid " can only be used with Estonian, Latvian and Lithuanian numbers that are able to receive SMS (mobile phone)."
+msgstr ""
+
+#: shipping/method/common/smartpost.php:47
+msgid "SmartPost API Key"
+msgstr ""
+
+#: shipping/method/courier/courier.php:30
+msgid "courier"
+msgstr ""
+
+#: shipping/method/courier/courier.php:40
+msgid "courier (MC)"
+msgstr ""
+
+#: shipping/method/courier/dpd.php:38
+#: shipping/method/courier/omniva.php:26
+msgid "Register shipments automatically as"
+msgstr ""
+
+#: shipping/method/courier/dpd.php:40
+#: shipping/method/courier/omniva.php:28
+msgid "register on Payment"
+msgstr ""
+
+#: shipping/method/courier/dpd.php:41
+msgid "Shipments will be automatically registered on payment using the selected DPD service code"
+msgstr ""
+
+#: shipping/method/courier/dpd.php:43
+msgid "QP - handover to DPD at Post Office"
+msgstr ""
+
+#: shipping/method/courier/dpd.php:44
+msgid "PK - handover to DPD via Parcel Machine"
+msgstr ""
+
+#: shipping/method/courier/dpd.php:51
+#: shipping/method/courier/omniva.php:39
+#: shipping/method/parcelmachine/dpd.php:50
+#: shipping/method/parcelmachine/lpexpress.php:29
+#: shipping/method/parcelmachine/omniva.php:49
+msgid "Integration country"
+msgstr ""
+
+#: shipping/method/courier/dpd.php:58
+#: shipping/method/courier/omniva.php:46
+#: shipping/method/parcelmachine/dpd.php:57
+#: shipping/method/parcelmachine/lpexpress.php:34
+#: shipping/method/parcelmachine/omniva.php:56
+msgid "Which country's carrier gave you the credentials"
+msgstr ""
+
+#: shipping/method/courier/omniva.php:29
+msgid "Shipments will be automatically registered on payment using the selected Omniva service code"
+msgstr ""
+
+#: shipping/method/courier/omniva.php:31
+msgid "QP - handover to Omniva at Post Office"
+msgstr ""
+
+#: shipping/method/courier/omniva.php:32
+msgid "PK - handover to Omniva via Parcel Machine"
+msgstr ""
+
+#: shipping/method/courier/smartpost.php:71
+#: shipping/method/courier/smartpost.php:84
+msgid "Pick courier arrival time window"
+msgstr ""
+
+#: shipping/method/courier/smartpost.php:74
+#: shipping/method/courier/smartpost.php:88
+#: shipping/order.php:192
+#: shipping/order.php:428
+msgid "Any time"
+msgstr ""
+
+#: shipping/method/courier/smartpost.php:75
+#: shipping/method/courier/smartpost.php:89
+msgid "Worktime (09:00..17:00)"
+msgstr ""
+
+#: shipping/method/courier/smartpost.php:76
+#: shipping/method/courier/smartpost.php:90
+msgid "After worktime (17:00..21:00)"
+msgstr ""
+
+#: shipping/method/method.php:148
+msgid "Update here"
+msgstr ""
+
+#: shipping/method/method.php:149
+#: shipping/shipping.php:1079
+msgid "Dismiss"
+msgstr ""
+
+#: shipping/method/method.php:174
+msgid "<strong>Parcel machine</strong> is a required field."
+msgstr ""
+
+#: shipping/method/method.php:492
+msgid "Generic and pricing options"
+msgstr ""
+
+#: shipping/method/method.php:496
+msgid "Enable"
+msgstr ""
+
+#: shipping/method/method.php:498
+msgid "enabled"
+msgstr ""
+
+#: shipping/method/method.php:503
+msgid "Maximum weight allowed for shipping (%s)"
+msgstr ""
+
+#: shipping/method/method.php:510
+msgid "Look and feel options"
+msgstr ""
+
+#: shipping/method/method.php:511
+msgid "Options for presentation on check-out page"
+msgstr ""
+
+#: shipping/method/method.php:520
+#: shipping/method/method.php:527
+msgid "Shipping Method Title"
+msgstr ""
+
+#: shipping/method/method.php:544
+msgid "API access for"
+msgstr ""
+
+#: shipping/method/method.php:545
+msgid "You can automatically create shipments into %s system and print the out the package labels right here, at the shop orders view. <br> Please set your %s web services account credentials below here. <br>(see more on <a href=\"https://makecommerce.net/en/integration-modules/makecommerce-woocommerce-payment-plugin/#carriers-integration\">MakeCommerce plugin page</a>. Don't forget to enable also <a href=\"%s\">MC API keys</a>!)"
+msgstr ""
+
+#: shipping/method/method.php:565
+msgid "Shipping price"
+msgstr ""
+
+#: shipping/method/method.php:571
+msgid "Free shipping amount"
+msgstr ""
+
+#: shipping/method/method.php:574
+msgid "(0 means no free shipping)"
+msgstr ""
+
+#: shipping/method/method.php:578
+msgid "Free shipping coupons"
+msgstr ""
+
+#: shipping/method/method.php:581
+msgid "Allow using free shipping coupons to be used with this method"
+msgstr ""
+
+#: shipping/method/method.php:597
+msgid "Return address"
+msgstr ""
+
+#: shipping/method/method.php:598
+msgid "Please define return address for %s shipments.<br><b>All fields are required.</b>"
+msgstr ""
+
+#: shipping/method/method.php:603
+msgid "Shop name"
+msgstr ""
+
+#: shipping/method/method.php:609
+msgid "Shop phone (mobile)"
+msgstr ""
+
+#: shipping/method/method.php:615
+msgid "Shop email"
+msgstr ""
+
+#: shipping/method/method.php:621
+#: shipping/method/parcelmachine/lpexpress.php:64
+msgid "Shop address country"
+msgstr ""
+
+#: shipping/method/method.php:632
+msgid "Shop address city"
+msgstr ""
+
+#: shipping/method/method.php:638
+msgid "Shop postal code"
+msgstr ""
+
+#: shipping/method/method.php:644
+msgid "Shop address street"
+msgstr ""
+
+#: shipping/method/method.php:661
+msgid "%s web services username"
+msgstr ""
+
+#: shipping/method/method.php:667
+msgid "%s web services password"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:29
+#: shipping/method/parcelmachine/omniva.php:29
+msgid "Contract"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:31
+msgid "use my own DPD contract"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:32
+#: shipping/method/parcelmachine/omniva.php:32
+msgid "use the Shipping+ service"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:41
+#: shipping/method/parcelmachine/omniva.php:41
+msgid "Verify service status"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:42
+#: shipping/method/parcelmachine/omniva.php:42
+msgid "You must enable the Transport mediation service before using it."
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:43
+#: shipping/method/parcelmachine/omniva.php:43
+msgid "This will check if the Transport mediation service has been enabled for your shop."
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:44
+#: shipping/method/parcelmachine/omniva.php:44
+msgid "Verify"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:63
+msgid "You can now use the API Key for a more streamlined integration process. Please note that the traditional username and password authentication method will be deprecated in the near future. We strongly encourage you to switch to API Key authentication as soon as possible."
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:64
+msgid "To obtain the API key please contact your sales manager or DPD:"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:65
+msgid "Estonia: sales@dpd.ee"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:66
+msgid "Latvia: sales@dpd.lv"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:67
+msgid "Lithuania: sales@dpd.lt"
+msgstr ""
+
+#: shipping/method/parcelmachine/dpd.php:77
+msgid "Please be aware that changing the credentials to API key will affect generating labels for all old shipments. Please generate all labels needed for already created shipments before migrating to new API."
+msgstr ""
+
+#: shipping/method/parcelmachine/lpexpress.php:41
+msgid "Default LP Express template"
+msgstr ""
+
+#: shipping/method/parcelmachine/lpexpress.php:44
+msgid "All new orders will have this template as a default but can be individually changed in the order view. <br>When changing the template size in the order view, the packing slip will also change."
+msgstr ""
+
+#: shipping/method/parcelmachine/lpexpress.php:73
+msgid "Shop building"
+msgstr ""
+
+#: shipping/method/parcelmachine/lpexpress.php:79
+msgid "Shop apartment"
+msgstr ""
+
+#: shipping/method/parcelmachine/lpexpress.php:95
+msgid "Parcel to Parcel size XL"
+msgstr ""
+
+#: shipping/method/parcelmachine/omniva.php:31
+msgid "use my own Omniva contract"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:67
+msgid "parcelmachine"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:77
+msgid "parcel machine (MC)"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:88
+msgid "Prioritize"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:90
+msgid "Bigger cities will be on top of list, others sorted alphabetically"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:95
+msgid "Short names"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:97
+msgid "Display only parcel machine names, without addresses"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:102
+msgid "Search"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:104
+msgid "Make parcel machine selection searchable"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:159
+#: shipping/shipping.php:789
+msgid "-- select parcel machine --"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:191
+msgid "Choose machine from map"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:475
+msgid "The transport mediation service is already enabled for your shop. You are good to go!"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:476
+msgid "The transport mediation service is NOT ENABLED enabled for your shop. Please go to merchant portal to activate it!"
+msgstr ""
+
+#: shipping/method/parcelmachine/parcelmachine.php:477
+msgid "There was an error with your request. Please try again."
+msgstr ""
+
+#: shipping/method/parcelmachine/smartpost.php:44
+msgid "Use authenticable APTs"
+msgstr ""
+
+#: shipping/method/parcelmachine/smartpost.php:46
+msgid "use all APTs"
+msgstr ""
+
+#: shipping/method/parcelmachine/smartpost.php:47
+msgid "use only non-white auth-capable APTs"
+msgstr ""
+
+#: shipping/method/shippingclasses.php:25
+msgid "Shipping class costs (optional)"
+msgstr ""
+
+#: shipping/method/shippingclasses.php:26
+msgid "Shipping class cost is added to the shipping price. If multiple are found, the one with highest cost is added."
+msgstr ""
+
+#: shipping/order.php:78
+#: shipping/order.php:108
+#: shipping/order.php:410
+#: shipping/order.php:412
+msgid "Parcel machine"
+msgstr ""
+
+#: shipping/order.php:128
+msgid "LP Express template"
+msgstr ""
+
+#: shipping/order.php:192
+#: shipping/order.php:195
+#: shipping/order.php:198
+#: shipping/order.php:428
+#: shipping/order.php:433
+#: shipping/order.php:438
+msgid "Delivery time"
+msgstr ""
+
+#: shipping/order.php:205
+#: shipping/order.php:272
+#: shipping/order.php:454
+msgid "Shipment tracking code"
+msgstr ""
+
+#: shipping/order.php:275
+msgid "Package shipment generation error:"
+msgstr ""
+
+#: shipping/order.php:296
+#: shipping/order.php:320
+msgid "-- filter by shipping method"
+msgstr ""
+
+#: shipping/order.php:454
+#: shipping/order.php:456
+msgid "Shipment tracking info"
+msgstr ""
+
+#: shipping/product.php:63
+msgid "Does not fit parcel machine"
+msgstr ""
+
+#: shipping/product.php:64
+msgid "When this is checked, parcel machine shipping option is not available for a cart with this product"
+msgstr ""
+
+#: shipping/product.php:71
+msgid "Free parcel machine"
+msgstr ""
+
+#: shipping/product.php:72
+msgid "When this is checked, parcel machine is free for this product"
+msgstr ""
+
+#: shipping/shipping.php:486
+msgid "Request failed: missing credentials"
+msgstr ""
+
+#: shipping/shipping.php:503
+msgid "Request failed: invalid sender or destination data"
+msgstr ""
+
+#: shipping/shipping.php:1080
+msgid "Unable to use Google Geocoding:"
+msgstr ""
+
+#: shipping/shipping.php:1081
+msgid "Check your app settings or"
+msgstr ""
+
+#: shipping/shipping.php:1083
+msgid "update the key here"
+msgstr ""

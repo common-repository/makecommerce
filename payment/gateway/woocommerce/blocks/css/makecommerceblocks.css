@@ -1,0 +1,43 @@
+.makecommerce_picker_container,
+.makecommerce_banklink_picker_container,
+.makecommerce_paylater_picker_container {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.makecommerce_widget {
+    display: flex;
+}
+
+.makecommerce_picker_label {
+    margin: 0 4px;
+    height: 24px;
+    width: 32px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.makecommerce_picker_label:not(:last-child) {
+    margin-right: 4px;
+}
+
+.makecommerce_picker_img {
+    height: 32px !important;
+    margin: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.makecommerce_picker_label.selected, .makecommerce_picker_img.selected {
+    outline: 3px solid orange;
+}
+
+.mc-machine-unselected {
+    border: 1px solid red !important;
+}
+
+.smartpost-courier-text {
+    margin-bottom: 0;
+}
